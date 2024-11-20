@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "lib": ["ESNext"], // la versionde js a la que se compila
+    "target": "ESNext", // version a la que compila
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "strict": false, // permite algunos anys
+    "sourceMap": true, // crea archivos tipo map
+    "esModuleInterop": true, // permite usar librerias con versiones de commonjs y
+    "declaration": true, //genera archivos de definiciones
+    "experimentalDecorators": true, //permite decoradores
+    "emitDecoratorMetadata": true
+  },
+  "include": ["src/**/*.ts"] //todos los archivos que se compilan
+}
