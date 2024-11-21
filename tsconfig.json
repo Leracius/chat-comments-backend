@@ -2,6 +2,8 @@
   "compilerOptions": {
     "outDir": "./dist",
     "rootDir": "./src",
+    "typeRoots": ["node_modules/@types"],
+    "types": ["node"],
     "lib": ["ESNext"], // la versionde js a la que se compila
     "target": "ESNext", // version a la que compila
     "moduleResolution": "NodeNext",
